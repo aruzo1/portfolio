@@ -9,7 +9,7 @@ const menu = [
 <template>
   <ul>
     <li v-for="item in menu" :key="item.name">
-      <a :href="item.href" :class="item.button ? 'btn' : 'link'">
+      <a :href="item.href" :class="item.button ? 'btn--primary' : 'link'">
         {{ item.name }}
       </a>
     </li>

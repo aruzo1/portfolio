@@ -62,7 +62,8 @@ function toggleMobileMenu() {
   }
 
   &__btn {
-    @extend .btn;
+    @extend .btn--primary;
+
     padding: 0.5rem;
 
     @media (min-width: $sm) {

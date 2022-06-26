@@ -21,10 +21,25 @@
   padding: 0.5rem 1rem;
   border-radius: $border-radius;
   font-weight: 600;
-  color: #fff;
-  background: $primary;
 
-  &:hover {
-    background: $primary-dark;
+  &--primary {
+    @extend .btn;
+
+    color: #fff;
+    background: $primary;
+
+    &:hover {
+      background: $primary-dark;
+    }
+  }
+
+  &--text {
+    @extend .btn;
+
+    color: $primary;
+
+    &:hover {
+      background: $gray-light;
+    }
   }
 }
