@@ -1,0 +1,30 @@
+@import "variables";
+@import "mixins";
+
+.container {
+  max-width: 962px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.link {
+  @include transition;
+
+  &:hover {
+    color: $primary-dark;
+  }
+}
+
+.btn {
+  @include transition;
+
+  padding: 0.5rem 1rem;
+  border-radius: $border-radius;
+  font-weight: 600;
+  color: #fff;
+  background: $primary;
+
+  &:hover {
+    background: $primary-dark;
+  }
+}
