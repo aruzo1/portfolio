@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import Navbar from "@/components/navbar/Navbar.vue";
-import "@/styles/_global.scss";
+import "@/styles/style.scss";
 </script>
 
 <template>

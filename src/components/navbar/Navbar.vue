@@ -20,8 +20,8 @@ function toggleMobileMenu() {
     <Menu class="nav__menu--desktop" />
 
     <!-- Mobile -->
-    <button class="menu--mobile__btn" @click="toggleMobileMenu">
-      <MenuIcon class="btn__icon" />
+    <button class="nav__btn" @click="toggleMobileMenu">
+      <MenuIcon class="nav__icon" />
     </button>
     <Menu class="nav__menu--mobile" v-if="showMobileMenu" />
   </nav>
@@ -60,19 +60,19 @@ function toggleMobileMenu() {
       display: none;
     }
   }
-  
-  .menu--mobile__btn {
+
+  &__btn {
     @extend .btn;
     padding: 0.5rem;
 
     @media (min-width: $sm) {
       display: none;
     }
+  }
 
-    .btn__icon {
-      width: 1.25rem;
-      height: 1.25rem;
-    }
+  &__icon {
+    width: 1.25rem;
+    height: 1.25rem;
   }
 }
 </style>
