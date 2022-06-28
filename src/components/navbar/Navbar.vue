@@ -37,6 +37,7 @@ function toggleMobileMenu() {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 0;
+  margin-bottom: 2rem;
   border-bottom: 1px solid $gray-light;
 
   &__menu--desktop {
