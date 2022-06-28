@@ -48,6 +48,25 @@
   font-size: 4rem;
   font-weight: 900;
   word-break: break-word;
+
+  &--section {
+    @extend .title;
+
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      height: 1px;
+      width: 100%;
+      margin-left: 1rem;
+      background: $gray-light;
+    }
+  }
 }
 
 .paragraph {
