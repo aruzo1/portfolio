@@ -48,6 +48,53 @@
   font-size: 4rem;
   font-weight: 900;
   word-break: break-word;
+
+  &--section {
+    @extend .title;
+
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      height: 1px;
+      width: 100%;
+      margin-left: 1rem;
+      background: $gray-light;
+    }
+  }
+}
+
+.img-wrapper {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  margin: 0 1rem 1rem 0;
+
+  & > img {
+    border-radius: $border-radius;
+
+    @media (max-width: $sm) {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 1rem;
+    left: 1rem;
+    width: 100%;
+    height: 100%;
+    border-radius: $border-radius;
+    background: $primary;
+  }
 }
 
 .paragraph {
