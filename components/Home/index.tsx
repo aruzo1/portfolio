@@ -7,7 +7,7 @@ function Home() {
   return (
     <HomeStyled id="home">
       <Title>
-        Hi, I'm <Highlight>Aruzo</Highlight> Frontend Web Developer.
+        Hi, I&rsquo;m <Highlight>Aruzo</Highlight> Frontend Web Developer.
       </Title>
       <Text>
         For over a decade, I have studied and inscribed the sacred runes and

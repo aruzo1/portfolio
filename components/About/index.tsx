@@ -30,13 +30,13 @@ function About() {
       <AboutBody>
         <AboutText>
           <Text>
-            Hello, my name is David and I love developing websites. I&quot;m
+            Hello, my name is David and I love developing websites. I&rsquo;m
             programming since I was 13.
           </Text>
           <Text>
             For over 4 years I had many opportunities to work with a lot of web
             technologies which let me gather a significant amount of experience.
-            Here are a few I&quot;ve been working with recently:
+            Here are a few I&rsquo;ve been working with recently:
           </Text>
           <BadgeGroup>
             {technologies.map((technology) => (
