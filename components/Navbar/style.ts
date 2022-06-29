@@ -1,15 +1,24 @@
 import styled from "styled-components";
+import { Container } from "components/shared/Container.style";
 import { Button } from "components/shared/Button.style";
 import Menu from "./Menu";
 
 export const NavbarStyled = styled.nav`
+  position: fixed;
+  z-index: 10;
+  inset: 0;
+  bottom: unset;
+  border-bottom: 1px solid ${(p) => p.theme.colors.grayLight};
+  background: #fff;
+`;
+
+export const NavbarContainer = styled(Container)`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 0;
-  margin-bottom: 2rem;
-  border-bottom: 1px solid ${(p) => p.theme.colors.grayLight};
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 `;
 
 export const MenuDesktop = styled(Menu)`
