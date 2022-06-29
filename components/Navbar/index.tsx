@@ -2,23 +2,31 @@ import Image from "next/future/image";
 import Link from "next/link";
 import useMenu from "hooks/useMenu";
 import MenuIcon from "./MenuIcon";
-import { MenuBtn, MenuDesktop, MenuMobile, NavbarStyled } from "./style";
+import {
+  MenuBtn,
+  MenuDesktop,
+  MenuMobile,
+  NavbarContainer,
+  NavbarStyled,
+} from "./style";
 
 function Navbar() {
   const menu = useMenu();
 
   return (
     <NavbarStyled>
-      <Link href="#home">
-        <Image src="/logo.png" alt="logo" height="32" priority />
-      </Link>
+      <NavbarContainer>
+        <Link href="#home">
+          <Image src="/logo.png" alt="logo" height="32" priority />
+        </Link>
 
-      <MenuDesktop />
+        <MenuDesktop />
 
-      <MenuBtn variant="primary" onClick={menu.toggle}>
-        <MenuIcon />
-      </MenuBtn>
-      {menu.show && <MenuMobile toggle={menu.toggle} />}
+        <MenuBtn variant="primary" onClick={menu.toggle}>
+          <MenuIcon />
+        </MenuBtn>
+        {menu.show && <MenuMobile toggle={menu.toggle} />}
+      </NavbarContainer>
     </NavbarStyled>
   );
 }

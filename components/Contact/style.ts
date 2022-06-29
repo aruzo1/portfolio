@@ -6,7 +6,7 @@ export const ContactStyled = styled.section`
   flex-direction: column;
   row-gap: 1rem;
   text-align: center;
-  padding: 2rem 0;
+  padding: 4rem 0;
 `;
 
 export const ContactTitle = styled(Title)`
