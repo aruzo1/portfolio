@@ -3,7 +3,7 @@
     <h1 class="title">
       Hi, I'm <span class="highlight">Aruzo</span> Frontend Web Developer.
     </h1>
-    <p class="paragraph">
+    <p class="text">
       For over a decade, I have studied and inscribed the sacred runes and
       performed the arcane rituals that breathe life into the realm of the
       internet. For over a decade, I have studied and inscribed the sacred runes
@@ -16,7 +16,7 @@
   </section>
 </template>
 
-<style lang="scss" scope>
+<style lang="scss">
 .home {
   display: flex;
   flex-direction: column;

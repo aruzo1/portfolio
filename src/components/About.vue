@@ -16,13 +16,13 @@ const technologies = [
 <template>
   <section id="about" class="about">
     <h2 class="title--section">About <span class="highlight">Me</span></h2>
-    <div class="about__content">
-      <div class="about__text">
-        <p class="paragraph">
+    <div class="about__body">
+      <div class="about__content">
+        <p class="text">
           Below are the top twenty (20) web developer portfolio examples that
           you can reference when seeking the right.
         </p>
-        <p class="paragraph">
+        <p class="text">
           inspiration to build yours or improve your already existing portfolio.
           Because we know that having a professional portfolio. Here are a few
           I&rsquo;ve been working with recently:
@@ -40,13 +40,11 @@ const technologies = [
   </section>
 </template>
 
-<style lang="scss" scoped>
-@import "@/styles/variables";
-
+<style lang="scss">
 .about {
   padding: 2rem 0;
 
-  &__content {
+  &__body {
     display: flex;
     gap: 2rem;
 
@@ -55,7 +53,7 @@ const technologies = [
     }
   }
 
-  &__text {
+  &__content {
     display: flex;
     flex-direction: column;
     row-gap: 1rem;

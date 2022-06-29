@@ -1,5 +1,4 @@
 @import "variables";
-@import "mixins";
 
 .container {
   max-width: 962px;
@@ -8,7 +7,7 @@
 }
 
 .link {
-  @include transition;
+  transition: $transition;
 
   &:hover {
     color: $primary-dark;
@@ -16,11 +15,10 @@
 }
 
 .btn {
-  @include transition;
-
   padding: 0.5rem 1rem;
   border-radius: $border-radius;
   font-weight: 600;
+  transition: $transition;
 
   &--primary {
     @extend .btn;
@@ -71,7 +69,6 @@
 
 .img-wrapper {
   position: relative;
-  width: fit-content;
   height: fit-content;
   margin: 0 1rem 1rem 0;
 
@@ -97,7 +94,7 @@
   }
 }
 
-.paragraph {
+.text {
   font-size: 1.15rem;
   color: $gray;
 }
