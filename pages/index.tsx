@@ -1,11 +1,12 @@
 import type { NextPage } from "next";
+import { Container } from "components/shared/Container.style";
 import Navbar from "components/Navbar";
 
 const Home: NextPage = () => {
   return (
-    <div className="container">
+    <Container>
       <Navbar />
-    </div>
+    </Container>
   );
 };
 
