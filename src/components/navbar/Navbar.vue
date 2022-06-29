@@ -27,8 +27,7 @@ function toggleMobileMenu() {
   </nav>
 </template>
 
-<style lang="scss" scoped>
-@import "@/styles/variables";
+<style lang="scss">
 @import "@/styles/components";
 
 .nav {
@@ -43,7 +42,7 @@ function toggleMobileMenu() {
   &__menu--desktop {
     display: flex;
     align-items: center;
-    column-gap: 1rem;
+    column-gap: 2rem;
 
     @media (max-width: $sm) {
       display: none;
