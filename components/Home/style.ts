@@ -8,8 +8,3 @@ export const HomeStyled = styled.section`
   row-gap: 1rem;
   padding: 2rem 0;
 `;
-
-export const ButtonGroup = styled.div`
-  display: flex;
-  column-gap: 1rem;
-`;

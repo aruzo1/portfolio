@@ -27,3 +27,8 @@ export const Button = styled.button<{ variant: "primary" | "text" }>`
 
   ${(p) => variants(p.theme, p.variant)}
 `;
+
+export const ButtonGroup = styled.div`
+  display: flex;
+  column-gap: 1rem;
+`;

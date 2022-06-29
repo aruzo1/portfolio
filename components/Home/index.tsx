@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { Button } from "components/shared/Button.style";
+import { Button, ButtonGroup } from "components/shared/Button.style";
 import { Highlight, Text, Title } from "components/shared/Typography.style";
-import { ButtonGroup, HomeStyled } from "./style";
+import { HomeStyled } from "./style";
 
 function Home() {
   return (
