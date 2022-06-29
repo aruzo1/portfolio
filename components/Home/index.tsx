@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "components/shared/Button.style";
 import { Highlight, Text, Title } from "components/shared/Typography.style";
 import { ButtonGroup, HomeStyled } from "./style";
@@ -15,8 +16,12 @@ function Home() {
         runes and performer.
       </Text>
       <ButtonGroup>
-        <Button variant="primary">My Projects</Button>
-        <Button variant="text">Contact Me</Button>
+        <Link href="#projects">
+          <Button variant="primary">My Projects</Button>
+        </Link>
+        <Link href="#contact">
+          <Button variant="text">Contact Me</Button>
+        </Link>
       </ButtonGroup>
     </HomeStyled>
   );
