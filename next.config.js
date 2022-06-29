@@ -5,6 +5,9 @@ const nextConfig = {
     images: { allowFutureImage: true },
     newNextLinkBehavior: true,
   },
+  compiler: {
+    styledComponents: true,
+  },
 };
 
 module.exports = nextConfig;
