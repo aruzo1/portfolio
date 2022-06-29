@@ -20,7 +20,7 @@
   font-weight: 600;
   transition: $transition;
 
-  &--primary {
+  &Primary {
     @extend .btn;
 
     color: #fff;
@@ -31,7 +31,7 @@
     }
   }
 
-  &--text {
+  &Text {
     @extend .btn;
 
     color: $primary;
@@ -47,7 +47,7 @@
   font-weight: 900;
   word-break: break-word;
 
-  &--section {
+  &Section {
     @extend .title;
 
     position: relative;
@@ -67,7 +67,7 @@
   }
 }
 
-.img-wrapper {
+.imgWrapper {
   position: relative;
   height: fit-content;
   margin: 0 1rem 1rem 0;
