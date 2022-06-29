@@ -5,8 +5,8 @@ export const Badge = styled.li`
   border: 1px solid ${(p) => p.theme.colors.primary};
   border-radius: 999px;
   font-size: 0.9rem;
-  color: ${(p) => p.theme.colors.primary};
-  background: ${(p) => p.theme.colors.primary}26;
+  color: ${(p) => p.theme.colors.primaryDark};
+  background: ${(p) => p.theme.colors.primary}19;
 `;
 
 export const BadgeGroup = styled.ul`
