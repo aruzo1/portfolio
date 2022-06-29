@@ -36,7 +36,7 @@ function Projects() {
               <Text>{desc}</Text>
               <BadgeGroup>
                 {badges.map((badge) => (
-                  <Badge>{badge}</Badge>
+                  <Badge key={badge}>{badge}</Badge>
                 ))}
               </BadgeGroup>
             </ProjectContent>
