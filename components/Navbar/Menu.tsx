@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "components/shared/Button.style";
 import { LinkStyled } from "components/shared/Link.style";
+import { MenuItem } from "./style";
 
 const menu = [
   { name: "Home", href: "#home" },
@@ -15,7 +16,7 @@ function Menu(props: { className?: string; toggle?: () => void }) {
   return (
     <ul className={className}>
       {menu.map(({ name, href, button }) => (
-        <li key={name} onClick={toggle}>
+        <MenuItem key={name} onClick={toggle}>
           {button ? (
             <Link href={href}>
               <Button variant="primary">{name}</Button>
@@ -23,7 +24,7 @@ function Menu(props: { className?: string; toggle?: () => void }) {
           ) : (
             <LinkStyled href={href}>{name}</LinkStyled>
           )}
-        </li>
+        </MenuItem>
       ))}
     </ul>
   );

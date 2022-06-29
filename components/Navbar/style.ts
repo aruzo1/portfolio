@@ -46,3 +46,7 @@ export const MenuBtn = styled(Button)`
     height: 1.25rem;
   }
 `;
+
+export const MenuItem = styled.li`
+  width: fit-content;
+`;
