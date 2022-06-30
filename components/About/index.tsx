@@ -47,7 +47,7 @@ function About() {
             </BadgeGroup>
           </AboutText>
           <AboutImgWrapper>
-            <Image src="/me.png" alt="me" width="250" height="250" />
+            <Image src="/images/me.png" alt="me" width="250" height="250" />
           </AboutImgWrapper>
         </AboutBody>
       </AboutStyled>

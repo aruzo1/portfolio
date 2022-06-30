@@ -16,7 +16,7 @@ import {
 
 const projects = [
   {
-    img: "/cosmac.png",
+    img: "/images/cosmac.png",
     title: "Cosmac",
     desc: "A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.",
     badges: ["Next.js", "Django Rest Framework", "TypeScript", "Tailwind"],

@@ -17,7 +17,7 @@ function Navbar() {
     <NavbarStyled>
       <NavbarContainer>
         <Link href="#home">
-          <Image src="/logo.png" alt="logo" height="32" priority />
+          <Image src="/images/logo.png" alt="logo" height="32" priority />
         </Link>
 
         <MenuDesktop />
