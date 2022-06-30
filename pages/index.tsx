@@ -11,7 +11,8 @@ const HomePage: NextPage = () => {
   return (
     <Container>
       <Head>
-        <title>Aruzo - Portfolio</title>
+        <title>Aruzo | Frontend Developer Portfolio</title>
+        <meta property="og:title" content="Aruzo | Frontend Developer Portfolio" />
       </Head>
       <Navbar />
       <Home />
