@@ -5,7 +5,7 @@ import {
   Text,
 } from "components/shared/Typography.style";
 import { Badge, BadgeGroup } from "components/shared/Badge.style";
-import { AboutBody, AboutStyled, AboutText, ImgWrapper } from "./style";
+import { AboutBody, AboutStyled, AboutText, AboutImgWrapper } from "./style";
 
 const technologies = [
   "HTML",
@@ -44,9 +44,9 @@ function About() {
             ))}
           </BadgeGroup>
         </AboutText>
-        <ImgWrapper>
+        <AboutImgWrapper>
           <Image src="/me.png" alt="me" width="250" height="250" />
-        </ImgWrapper>
+        </AboutImgWrapper>
       </AboutBody>
     </AboutStyled>
   );

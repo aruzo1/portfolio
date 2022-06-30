@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Highlight, Text } from "components/shared/Typography.style";
-import { ContactStyled, ContactTitle } from "./style";
 import { Button } from "components/shared/Button.style";
+import { ContactStyled, ContactTitle } from "./style";
 
 const email = "Dawid12391111@gmail.com";
 

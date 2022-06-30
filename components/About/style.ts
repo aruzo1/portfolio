@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AboutStyled = styled.section`
-  padding-top: 4rem
+  padding-top: 4rem;
 `;
 
 export const AboutBody = styled.div`
@@ -19,7 +19,7 @@ export const AboutText = styled.div`
   row-gap: 1rem;
 `;
 
-export const ImgWrapper = styled.div`
+export const AboutImgWrapper = styled.div`
   position: relative;
   height: fit-content;
   margin: 0 1rem 1rem 0;

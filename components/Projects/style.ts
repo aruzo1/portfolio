@@ -8,7 +8,7 @@ export const Project = styled.li`
   position: relative;
 `;
 
-export const ImgWrapper = styled.div`
+export const ProjectImgWrapper = styled.div`
   position: relative;
   width: 75%;
   margin: 0 1rem 1rem 0;

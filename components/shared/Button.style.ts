@@ -1,7 +1,7 @@
 import styled, { css, DefaultTheme } from "styled-components";
 
-const variants = (theme: DefaultTheme, variant: string) =>
-  ({
+function variants(theme: DefaultTheme, variant: string) {
+  return {
     primary: css`
       color: #fff;
       background: ${theme.colors.primary};
@@ -17,7 +17,8 @@ const variants = (theme: DefaultTheme, variant: string) =>
         background: ${theme.colors.grayLight};
       }
     `,
-  }[variant]);
+  }[variant];
+}
 
 export const Button = styled.button<{ variant: "primary" | "text" }>`
   padding: 0.5rem 1rem;
