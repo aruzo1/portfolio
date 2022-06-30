@@ -12,16 +12,22 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <meta
-            name="description"
-            content="Aruzo portfolio website created using Next.js"
-          />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"
             rel="stylesheet"
           />
+          <meta
+            name="description"
+            content="Freelancer frontend developer portfolio website. Including contact, major skills and projects."
+            key="desc"
+          />
+          <meta
+            property="og:description"
+            content="Freelancer frontend developer portfolio website. Including contact, major skills and projects."
+          />
+          <meta property="og:image" content="/images/preview.png" />
         </Head>
         <body>
           <Main />
