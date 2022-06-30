@@ -6,5 +6,5 @@ export const HomeStyled = styled.section`
   align-items: center;
   text-align: center;
   row-gap: 1rem;
-  padding-top: 8rem;
+  padding: 8rem 0 2rem 0;
 `;
