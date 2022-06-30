@@ -6,7 +6,7 @@ import {
   Text,
 } from "components/shared/Typography.style";
 import {
-  ImgWrapper,
+  ProjectImgWrapper,
   Project,
   ProjectContent,
   ProjectsStyled,
@@ -40,9 +40,9 @@ function Projects() {
                 ))}
               </BadgeGroup>
             </ProjectContent>
-            <ImgWrapper>
+            <ProjectImgWrapper>
               <Image src={img} alt="projekt" />
-            </ImgWrapper>
+            </ProjectImgWrapper>
           </Project>
         ))}
       </ul>
