@@ -4,6 +4,10 @@ export const Title = styled.h1`
   font-size: 4rem;
   font-weight: 900;
   word-break: break-word;
+
+  @media (max-width: ${p => p.theme.breakpoints.sm}) {
+    font-size: 3rem;
+  }
 `;
 
 export const SectionTitle = styled.h2`
