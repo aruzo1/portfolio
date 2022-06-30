@@ -4,7 +4,7 @@ import { Highlight, Text } from "components/shared/Typography.style";
 import { Button } from "components/shared/Button.style";
 import { ContactStyled, ContactTitle } from "./style";
 
-const email = "Dawid12391111@gmail.com";
+const email = "aruzo@aruzo.it";
 
 function Contact() {
   return (
