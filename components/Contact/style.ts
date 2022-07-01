@@ -10,8 +10,10 @@ export const ContactStyled = styled.section`
   padding: 6rem 0 4rem 0;
 `;
 
-export const ContactTitle = styled(Title)`
+export const ContactTitle = styled.h2`
   overflow: hidden;
+  font-size: 4rem;
+  font-weight: 900;
 
   &::before,
   &::after {
