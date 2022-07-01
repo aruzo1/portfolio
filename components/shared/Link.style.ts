@@ -1,7 +1,8 @@
 import Link from "next/link";
 import styled from "styled-components";
 
-export const LinkStyled = styled(Link)`
+export const LinkStyled = styled(Link)<{ primary?: boolean }>`
+  color: ${(p) => p.primary && p.theme.colors.primary};
   transition: ${(p) => p.theme.transition};
 
   &:hover {

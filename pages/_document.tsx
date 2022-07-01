@@ -41,12 +41,11 @@ export default class MyDocument extends Document {
           />
           <meta
             name="description"
-            content="Freelancer frontend developer portfolio website. Including contact, major skills and projects."
-            key="desc"
+            content="Aruzo freelancing frontend developer portfolio website. Including projects, skills, socials and, contact."
           />
           <meta
             property="og:description"
-            content="Freelancer frontend developer portfolio website. Including contact, major skills and projects."
+            content="Aruzo freelancing frontend developer portfolio website. Including projects, skills, socials and, contact."
           />
           <meta property="og:image" content="/images/preview.png" />
         </Head>

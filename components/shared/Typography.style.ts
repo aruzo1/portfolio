@@ -5,7 +5,7 @@ export const Title = styled.h1`
   font-weight: 900;
   word-break: break-word;
 
-  @media (max-width: ${p => p.theme.breakpoints.sm}) {
+  @media (max-width: ${(p) => p.theme.breakpoints.sm}) {
     font-size: 3rem;
   }
 `;
@@ -30,6 +30,7 @@ export const SectionTitle = styled.h2`
 
 export const Text = styled.p`
   color: ${(p) => p.theme.colors.gray};
+  white-space: pre-wrap;
 `;
 
 export const Highlight = styled.span`
