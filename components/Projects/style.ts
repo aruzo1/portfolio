@@ -19,6 +19,7 @@ export const ProjectImgWrapper = styled.div`
   }
 
   & > img {
+    aspect-ratio: 16/9;
     width: 100%;
     border-radius: ${(p) => p.theme.borderRadius};
   }
@@ -60,6 +61,9 @@ export const ProjectContent = styled.div`
 `;
 
 export const ProjectTitle = styled.h3`
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
   color: ${(p) => p.theme.colors.primary};
   font-size: 1.5rem;
   font-weight: 700;
