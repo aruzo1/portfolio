@@ -20,7 +20,7 @@ const projects = [
   {
     img: "/images/cosmac.png",
     title: "Cosmac",
-    desc: "A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.",
+    desc: "Website created for nail salon. Main features: \n-Modal showing product details \n-Products organized by categories \n-Products searching bar",
     badges: ["Next.js", "Django Rest Framework", "TypeScript", "Tailwind"],
   },
 ];
