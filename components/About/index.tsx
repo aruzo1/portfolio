@@ -32,8 +32,8 @@ function About() {
         <AboutBody>
           <AboutText>
             <Text>
-              Hello, my name is David and I love developing websites. I&rsquo;m
-              programming since I was 13.
+              Hello, my name is David Ostrzyżek (aruzo) and I love creating
+              websites. I&rsquo;m programming since I was 13.
             </Text>
             <Text>
               For over 4 years I had many opportunities to work with a lot of
@@ -47,7 +47,13 @@ function About() {
             </BadgeGroup>
           </AboutText>
           <AboutImgWrapper>
-            <Image src="/images/me.png" alt="me" width="250" height="250" />
+            <Image
+              src="/images/aruzo.png"
+              alt="aruzo"
+              title="aruzo"
+              width="250"
+              height="250"
+            />
           </AboutImgWrapper>
         </AboutBody>
       </AboutStyled>
