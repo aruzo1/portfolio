@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Title } from "components/shared/Typography.style";
 
 export const ContactStyled = styled.section`
   display: flex;
