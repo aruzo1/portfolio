@@ -1,7 +1,7 @@
 import Image from "next/future/image";
 import Link from "next/link";
 import useMenu from "hooks/useMenu";
-import MenuIcon from "./MenuIcon";
+import MenuIcon from "components/icons/MenuIcon";
 import {
   MenuBtn,
   MenuDesktop,

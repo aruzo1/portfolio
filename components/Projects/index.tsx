@@ -6,6 +6,8 @@ import {
   SectionTitle,
   Text,
 } from "components/shared/Typography.style";
+import { IconLink } from "components/shared/Link.style";
+import GithubIcon from "components/icons/GithubIcon";
 import {
   ProjectImgWrapper,
   Project,
@@ -34,7 +36,16 @@ function Projects() {
           {projects.map(({ title, desc, badges, img }) => (
             <Project key={title}>
               <ProjectContent>
-                <ProjectTitle>{title}</ProjectTitle>
+                <ProjectTitle>
+                  {title}
+                  <IconLink
+                    target="_blank"
+                    href="https://github.com/aruzo1/cosmac"
+                    rel="noopener noreferrer"
+                  >
+                    <GithubIcon />
+                  </IconLink>
+                </ProjectTitle>
                 <Text>{desc}</Text>
                 <BadgeGroup>
                   {badges.map((badge) => (

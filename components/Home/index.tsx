@@ -1,7 +1,6 @@
-import Link from "next/link";
 import Fade from "components/animations/Fade";
-import { Button, ButtonGroup } from "components/shared/Button.style";
 import { Highlight, Text, Title } from "components/shared/Typography.style";
+import Socials from "components/shared/Socials";
 import { HomeStyled } from "./style";
 
 function Home() {
@@ -17,14 +16,7 @@ function Home() {
           internet. For over a decade, I have studied and inscribed the sacred
           runes and performer.
         </Text>
-        <ButtonGroup>
-          <Link href="#projects">
-            <Button variant="primary">My Projects</Button>
-          </Link>
-          <Link href="#contact">
-            <Button variant="text">Contact Me</Button>
-          </Link>
-        </ButtonGroup>
+        <Socials />
       </HomeStyled>
     </Fade>
   );
