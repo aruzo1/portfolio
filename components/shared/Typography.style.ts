@@ -33,6 +33,6 @@ export const Text = styled.p`
   white-space: pre-wrap;
 `;
 
-export const Highlight = styled.span`
+export const Highlight = styled.strong`
   color: ${(p) => p.theme.colors.primary};
 `;
