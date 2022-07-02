@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <NavbarStyled>
       <NavbarContainer>
-        <Link href="#home">
+        <Link href="/">
           <Image src="/images/logo.png" alt="logo" height="32" priority />
         </Link>
 

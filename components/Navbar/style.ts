@@ -26,7 +26,7 @@ export const MenuDesktop = styled(Menu)`
   align-items: center;
   column-gap: 2rem;
 
-  @media (max-width: ${(p) => p.theme.breakpoints.sm}) {
+  @media (max-width: ${(p) => p.theme.breakpoints.md}) {
     display: none;
   }
 `;
@@ -38,7 +38,7 @@ export const MenuMobile = styled(Menu)`
   width: 100%;
   margin-top: 1rem;
 
-  @media (min-width: ${(p) => p.theme.breakpoints.sm}) {
+  @media (min-width: ${(p) => p.theme.breakpoints.md}) {
     display: none;
   }
 `;
@@ -46,7 +46,7 @@ export const MenuMobile = styled(Menu)`
 export const MenuBtn = styled(Button)`
   padding: 0.5rem;
 
-  @media (min-width: ${(p) => p.theme.breakpoints.sm}) {
+  @media (min-width: ${(p) => p.theme.breakpoints.md}) {
     display: none;
   }
 
