@@ -1,7 +1,7 @@
+import { IconLink, IconLinkGroup } from "components/shared/Link.style";
 import FiverrIcon from "components/icons/FiverrIcon";
 import GithubIcon from "components/icons/GithubIcon";
 import InstagramIcon from "components/icons/InstagramIcon";
-import { IconLink, IconLinkGroup } from "components/shared/Link.style";
 
 const socials = [
   { href: "https://github.com/aruzo1", Icon: GithubIcon },

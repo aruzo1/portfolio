@@ -12,15 +12,15 @@ function Home() {
           Hi, I&rsquo;m <Highlight>Aruzo</Highlight> Frontend Web Developer.
         </Title>
         <HomeText>
-          I love to create responisve, solid, and scalable internet{" "}
-          <LinkStyled href="#projects" primary>
-            websites
-          </LinkStyled>
+          I love to create responisve, solid, and scalable internet
+          <Highlight>
+            <LinkStyled href="#projects"> websites</LinkStyled>
+          </Highlight>
           , client satisfaction is my prioritet. Interested in working together?
-          Let&rsquo;s have a{" "}
-          <LinkStyled href="#contact" primary>
-            talk.
-          </LinkStyled>
+          Let&rsquo;s have a
+          <Highlight>
+            <LinkStyled href="#contact"> talk.</LinkStyled>
+          </Highlight>
         </HomeText>
         <Socials />
       </HomeStyled>
