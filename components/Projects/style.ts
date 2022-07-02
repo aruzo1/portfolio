@@ -5,7 +5,13 @@ export const ProjectsStyled = styled.section`
   padding: 6rem 0 2rem 0;
 `;
 
-export const Project = styled.li`
+export const ProjectsList = styled.ul`
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+`;
+
+export const ProjectStyled = styled.li`
   position: relative;
 `;
 
