@@ -14,6 +14,7 @@ const technologies = [
   "CSS",
   "TypeScript",
   "React",
+  "React Redux",
   "Vue",
   "Next.js",
   "Nuxt.js",
@@ -53,6 +54,7 @@ function About() {
               title="aruzo"
               width="250"
               height="250"
+              quality={100}
             />
           </AboutImgWrapper>
         </AboutBody>

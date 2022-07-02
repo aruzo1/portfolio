@@ -27,6 +27,7 @@ export const AboutImgWrapper = styled.div`
 
   & > img {
     border-radius: ${(p) => p.theme.borderRadius};
+    object-fit: cover;
 
     @media (max-width: ${(p) => p.theme.breakpoints.sm}) {
       width: 100%;
