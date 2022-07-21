@@ -1,11 +1,6 @@
 function FiverrIcon() {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="32"
-      height="32"
-      viewBox="0 0 32 32"
-    >
+    <svg width="32" height="32">
       <g transform="translate(6 10)">
         <g transform="translate(-6 -10)">
           <circle

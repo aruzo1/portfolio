@@ -13,12 +13,7 @@ function Socials() {
   return (
     <IconLinkGroup>
       {socials.map(({ href, Icon }) => (
-        <IconLink
-          key={href}
-          target="_blank"
-          href={href}
-          rel="noopener noreferrer"
-        >
+        <IconLink key={href} target="_blank" href={href}>
           <Icon />
         </IconLink>
       ))}
