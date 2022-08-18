@@ -10,7 +10,7 @@ const projects: IProject[] = [
     img: "/images/cosmac.png",
     title: "Cosmac",
     desc: "Website created for nail salon.\n- Modal showing product details \n- Products organized by categories \n- Products searching bar",
-    href: "https://cosmac.vercel.app/",
+    href: "http://cosmac.aruzo.it/",
     links: [{ Icon: GithubIcon, href: "https://github.com/aruzo1/cosmac" }],
     badges: ["Next.js", "Django Rest Framework", "TypeScript", "Tailwind"],
   },
