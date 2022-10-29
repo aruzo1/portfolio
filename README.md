@@ -10,7 +10,7 @@
 
 - React
 - Next
-- Tailwind
+- Styled Components
 
 ## Installation and Usage
 
