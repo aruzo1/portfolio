@@ -30,7 +30,7 @@ npm install
 ### Run Application
 
 ```bash
-npm start
+npm run dev
 ```
 
 Runs the app in the development mode.\
