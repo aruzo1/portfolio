@@ -9,7 +9,7 @@ const projects: IProject[] = [
   {
     img: "/images/audio-player.png",
     title: "Audio Player",
-    desc: "Audio Player is an website that gives you access to songs from other users around the world.\n- Tracks adding/editing/deleting form\n- Tracks searching bar\n- Play next/prev track\n- Tracks are organized by genres",
+    desc: "Audio Player is a website that gives you access to songs from other users around the world.\n- Tracks adding/editing/deleting form\n- Tracks searching bar\n- Play next/prev track\n- Tracks are organized by genres",
     href: "https://audio-player.aruzo.it",
     links: [{ Icon: GithubIcon, href: "https://github.com/aruzo1/audio-player" }],
     badges: ["Next.js", "Nest.js", "Docker", "Styled Components", "Nginx", "PostgreSQL"]
