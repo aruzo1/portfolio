@@ -26,7 +26,7 @@ const projects: IProject[] = [
     img: "/images/sincity.png",
     title: "Sincity Banditz",
     desc: "Website created for esport team SinCity Banditz.\n- Welcome section \n- Team section \n- Form sending emails",
-    href: "https://esport-website.vercel.app/",
+    href: "https://sinicity-banditz.aruzo.it",
     links: [
       { Icon: GithubIcon, href: "https://github.com/aruzo1/sincity-banditz" },
     ],
@@ -36,7 +36,7 @@ const projects: IProject[] = [
     img: "/images/pokedex.png",
     title: "Pokedex",
     desc: "Website created for Pokémon fans.\n- Infinity scroll \n- Sorting filters",
-    href: "https://pokedex-aruzo1.vercel.app/",
+    href: "https://pokemon-app.aruzo.it",
     links: [
       { Icon: GithubIcon, href: "https://github.com/aruzo1/pokemon-app" },
     ],
