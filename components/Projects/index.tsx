@@ -17,7 +17,7 @@ const projects: IProject[] = [
   {
     img: "/images/cosmac.png",
     title: "Cosmac",
-    desc: "Website created for nail salon.\n- Modal showing product details \n- Products organized by categories \n- Products searching bar",
+    desc: "Website created for nail salon to showcase the company.\n- Modal showing product details \n- Products organized by categories \n- Products searching bar",
     href: "https://cosmac.aruzo.it/",
     links: [{ Icon: GithubIcon, href: "https://github.com/aruzo1/cosmac" }],
     badges: ["Next.js", "Django Rest Framework", "TypeScript", "Tailwind"],
@@ -25,7 +25,7 @@ const projects: IProject[] = [
   {
     img: "/images/sincity.png",
     title: "Sincity Banditz",
-    desc: "Website created for esport team SinCity Banditz.\n- Welcome section \n- Team section \n- Form sending emails",
+    desc: "Website created for e-sport team to showcase the team.\n- Welcome section \n- Team section \n- Form sending emails",
     href: "https://sinicity-banditz.aruzo.it",
     links: [
       { Icon: GithubIcon, href: "https://github.com/aruzo1/sincity-banditz" },
@@ -35,7 +35,7 @@ const projects: IProject[] = [
   {
     img: "/images/pokedex.png",
     title: "Pokedex",
-    desc: "Website created for Pokémon fans.\n- Infinity scroll \n- Sorting filters",
+    desc: "Website created for Pokemon fans to showcase all pokemons.\n- Infinity scroll \n- Sorting filters",
     href: "https://pokemon-app.aruzo.it",
     links: [
       { Icon: GithubIcon, href: "https://github.com/aruzo1/pokemon-app" },
