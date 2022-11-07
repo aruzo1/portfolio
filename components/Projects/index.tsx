@@ -26,7 +26,7 @@ const projects: IProject[] = [
     img: "/images/sincity.png",
     title: "Sincity Banditz",
     desc: "Website created for e-sport team to showcase the team.\n- Welcome section \n- Team section \n- Form sending emails",
-    href: "https://sinicity-banditz.aruzo.it",
+    href: "https://sincity-banditz.aruzo.it/",
     links: [
       { Icon: GithubIcon, href: "https://github.com/aruzo1/sincity-banditz" },
     ],
