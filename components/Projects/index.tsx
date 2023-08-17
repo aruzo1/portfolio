@@ -7,6 +7,14 @@ import { ProjectsList, ProjectsStyled } from "./style";
 
 const projects: IProject[] = [
   {
+    img: "/images/smakownia.png",
+    title: "Smakownia",
+    desc: "Smakownia is an ambitious website project for a pizzeria, designed based on advanced microservices architecture. The platform offers users comfortable browsing and menu editing features, efficient shopping cart management, and access to a responsive interface.",
+    href: "http://217.182.77.168:3000",
+    links: [{Icon: GithubIcon, href: "https://github.com/smakownia/smakownia"}],
+    badges: ["React", "Next.js", "ASP .NET core", "Docker", "JWT", "Tailwind", "Postgres", "Redis", "RabbitMQ", "DDD", "Micorservices", "CQRS"]
+  },
+  {
     img: "/images/audio-player.png",
     title: "Audio Player",
     desc: "Audio Player is a website that gives you access to songs from other users around the world.\n- Tracks adding/editing/deleting form\n- Tracks searching bar\n- Play next/prev track\n- Tracks are organized by genres",
