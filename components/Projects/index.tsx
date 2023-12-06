@@ -7,20 +7,20 @@ import { ProjectsList, ProjectsStyled } from "./style";
 
 const projects: IProject[] = [
   {
+    img: "/images/zontaz.png",
+    title: "Zontaz",
+    desc: "Website created for agency creating websites:\n- Landing page\n- Showcase\n- Contact form",
+    href: "https://zontaz-portfolio.vercel.app/",
+    links: [],
+    badges: ["React", "Next.js", "TypeScript", "Tailwind", "Postgres"]
+  },
+  {
     img: "/images/smakownia.png",
     title: "Smakownia",
     desc: "Smakownia is an ambitious website project for a pizzeria, designed based on advanced microservices architecture. The platform offers users comfortable browsing and menu editing features, efficient shopping cart management, and access to a responsive interface.",
     href: "http://217.182.77.168:3000",
     links: [{Icon: GithubIcon, href: "https://github.com/smakownia/smakownia"}],
     badges: ["React", "Next.js", "ASP .NET core", "Docker", "JWT", "Tailwind", "Postgres", "Redis", "RabbitMQ", "DDD", "Micorservices", "CQRS"]
-  },
-  {
-    img: "/images/zontaz.png",
-    title: "Website created for agency creating websites:\n- Landing page\n- Showcase\n- Contact form",
-    desc: "Landing page",
-    href: "http://217.182.77.168:3000",
-    links: [{Icon: GithubIcon, href: "https://github.com/smakownia/smakownia"}],
-    badges: ["React", "Next.js", "TypeScript", "Tailwind", "Postgres"]
   },
   {
     img: "/images/audio-player.png",
