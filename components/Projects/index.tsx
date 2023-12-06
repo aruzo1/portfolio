@@ -15,6 +15,14 @@ const projects: IProject[] = [
     badges: ["React", "Next.js", "ASP .NET core", "Docker", "JWT", "Tailwind", "Postgres", "Redis", "RabbitMQ", "DDD", "Micorservices", "CQRS"]
   },
   {
+    img: "/images/zontaz.png",
+    title: "Website created for agency creating websites:\n- Landing page\n- Showcase\n- Contact form",
+    desc: "Landing page",
+    href: "http://217.182.77.168:3000",
+    links: [{Icon: GithubIcon, href: "https://github.com/smakownia/smakownia"}],
+    badges: ["React", "Next.js", "TypeScript", "Tailwind", "Postgres"]
+  },
+  {
     img: "/images/audio-player.png",
     title: "Audio Player",
     desc: "Audio Player is a website that gives you access to songs from other users around the world.\n- Tracks adding/editing/deleting form\n- Tracks searching bar\n- Play next/prev track\n- Tracks are organized by genres",
@@ -29,16 +37,6 @@ const projects: IProject[] = [
     href: "https://cosmac.aruzo.it/",
     links: [{ Icon: GithubIcon, href: "https://github.com/aruzo1/cosmac" }],
     badges: ["Next.js", "Django Rest Framework", "TypeScript", "Tailwind"],
-  },
-  {
-    img: "/images/sincity.png",
-    title: "Sincity Banditz",
-    desc: "Website created for e-sport team to showcase the team.\n- Welcome section \n- Team section \n- Form sending emails",
-    href: "https://sincity-banditz.aruzo.it/",
-    links: [
-      { Icon: GithubIcon, href: "https://github.com/aruzo1/sincity-banditz" },
-    ],
-    badges: ["Next.js", "TypeScript", "Tailwind"],
   },
   {
     img: "/images/pokedex.png",
