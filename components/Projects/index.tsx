@@ -7,14 +7,6 @@ import { ProjectsList, ProjectsStyled } from "./style";
 
 const projects: IProject[] = [
   {
-    img: "/images/zontaz.png",
-    title: "Zontaz",
-    desc: "Website created for agency creating websites:\n- Landing page\n- Showcase\n- Contact form",
-    href: "https://zontaz-portfolio.vercel.app/",
-    links: [],
-    badges: ["React", "Next.js", "TypeScript", "Tailwind", "Postgres"]
-  },
-  {
     img: "/images/smakownia.png",
     title: "Smakownia",
     desc: "Smakownia is an ambitious website project for a pizzeria, designed based on advanced microservices architecture. The platform offers users comfortable browsing and menu editing features, efficient shopping cart management, and access to a responsive interface.",
@@ -29,6 +21,14 @@ const projects: IProject[] = [
     href: "https://audio-player.aruzo.it",
     links: [{ Icon: GithubIcon, href: "https://github.com/aruzo1/audio-player" }],
     badges: ["Next.js", "Nest.js", "Docker", "Styled Components", "Nginx", "PostgreSQL"]
+  },
+  {
+    img: "/images/zontaz.png",
+    title: "Zontaz",
+    desc: "Website created for agency creating websites:\n- Landing page\n- Showcase\n- Contact form",
+    href: "https://zontaz-portfolio.vercel.app/",
+    links: [],
+    badges: ["React", "Next.js", "TypeScript", "Tailwind", "Postgres"]
   },
   {
     img: "/images/cosmac.png",
